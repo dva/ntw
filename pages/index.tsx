@@ -1,14 +1,7 @@
-import Nav from '../components/nav'
+import Layout from '../components/Layout'
 
-export default function IndexPage() {
-  return (
-    <div>
-      <Nav />
-      <div className="py-20">
-        <h1 className="text-5xl text-center text-gray-700 dark:text-gray-100">
-          Next.js + Tailwind CSS 2.0
-        </h1>
-      </div>
-    </div>
-  )
-}
+export default () => (
+  <Layout>
+    <h1 className="text-5xl font-bold text-gray-500">Hi 😎</h1>
+  </Layout>
+)
